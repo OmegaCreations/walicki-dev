@@ -27,14 +27,18 @@ const Links: React.FC = () => {
     <div className="container">
       <div className={styles.links}>
         {links.map((link) => (
-          <NavLink item={link} key={link.title} />
+          <div className={styles.linkItem} key={link.title}>
+            <NavLink item={link} />
+          </div>
         ))}{" "}
       </div>
       <button onClick={() => setOpen((prev) => !prev)}>menu</button>
       {open && (
         <div className="mobileLinks">
           {links.map((link) => (
-            <NavLink item={link} key={link.title} />
+            <div className={styles.linkItem} key={link.title}>
+              <NavLink item={link} />
+            </div>
           ))}
         </div>
       )}

@@ -4,6 +4,21 @@
   gap: 40px;
 }
 
+/* Single link styling */
+
+.linkItem {
+  transition: 0.2s;
+}
+
+.links:hover .linkItem {
+  opacity: 0.3;
+}
+
+.linkItem:hover {
+  opacity: 1 !important;
+  color: var(--text);
+}
+
 .logout {
   padding: 10px;
   cursor: pointer;
