@@ -8,9 +8,7 @@
   --link: #888789;
 
   /* Hero section */
-  --SIDE: 80px;
-  --HALF-SIDE: $SIDE/2;
-  --TWO-SIDE: $SIDE * 1.2;
+  --SIDE: 480px;
 }
 
 @media (prefers-color-scheme: dark) {

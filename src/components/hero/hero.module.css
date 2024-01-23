@@ -1,5 +1,4 @@
 .cube {
-  position: absolute;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -11,48 +10,18 @@
   width: var(--SIDE);
 }
 
-.cube .item {
-  background: rgba(0, 0, 0, 0.3);
+.inner {
   height: var(--SIDE);
   position: absolute;
   width: var(--SIDE);
   transform-style: preserve-3d;
-}
-
-.cube .inner {
   background: none;
   border: 1px dashed var(--text);
   border-radius: 100%;
 }
 
-/* Sides */
-
-.cube .left {
-  transform: rotateY(-90deg) translateZ(var(--TWO-SIDE));
-}
-
-.cube .right {
-  transform: rotateY(-90deg) translateZ(-var(--TWO-SIDE));
-}
-
-.cube .top {
-  transform: rotateX(90deg) translateZ(var(--TWO-SIDE));
-}
-
-.cube .bottom {
-  transform: rotateX(90deg) translateZ(-var(--TWO-SIDE));
-}
-
-.cube .front {
-  transform: translateZ(var(--TWO-SIDE));
-}
-
-.cube .back {
-  transform: translateZ(-var(--TWO-SIDE));
-}
-
 /* Spheres */
-.cube .sphereOne {
+.sphereOne {
   transform: rotateX(0) translateZ(0);
 }
 
@@ -72,7 +41,7 @@
   transform: rotateY(-45deg) rotateX(45deg) translateY(0);
 }
 
-@keyframes rotate {
+/* @keyframes rotate {
   0% {
     transform: rotateX(-1deg) rotateY(-1deg) rotateZ(-1deg);
   }
@@ -84,4 +53,4 @@
   100% {
     transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
   }
-}
+} */
