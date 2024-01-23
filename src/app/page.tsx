@@ -25,7 +25,7 @@ const Home = () => {
       };
 
       // Initial speed of rotation
-      const rotationSpeed = 1.2;
+      const rotationSpeed = 0.9;
 
       // Angle change
       let deltaY =

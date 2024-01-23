@@ -6,6 +6,7 @@
   --bg: #f8f7f2;
   --text: #2d2926;
   --link: #888789;
+  --subtext: #3423a6;
 
   /* Hero section */
   --SIDE: 480px;
@@ -34,4 +35,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.subText {
+  color: var(--subtext);
 }

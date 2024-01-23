@@ -32,7 +32,7 @@ const Links: React.FC = () => {
           </div>
         ))}{" "}
       </div>
-      <button onClick={() => setOpen((prev) => !prev)}>menu</button>
+      {/* <button onClick={() => setOpen((prev) => !prev)}>menu</button> */}
       {open && (
         <div className="mobileLinks">
           {links.map((link) => (

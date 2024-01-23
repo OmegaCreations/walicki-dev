@@ -10,7 +10,7 @@ import Footer from "@/components/footer/Footer";
 // Font
 const inter = Poppins({
   subsets: ["latin-ext"],
-  weight: "500",
+  weight: ["100", "200", "300", "400", "500"],
 });
 
 // TODO: later add title and description

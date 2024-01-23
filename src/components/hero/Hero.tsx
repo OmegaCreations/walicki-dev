@@ -3,7 +3,15 @@ import style from "./hero.module.css";
 // Hero
 const Hero: React.FC = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center gap-16">
+      <div className="text-center">
+        <h1 className="text-[3em] font-black tracking-widest">
+          Maksymilian Walicki
+        </h1>
+        <h2 className="text-lg font-normal">
+          Your international <span className="subText">Web Developer</span>
+        </h2>
+      </div>
       <div className={`${style.cube} sphere-box`}>
         <div className={`${style.sphereOne} ${style.inner}`}></div>
         <div className={`${style.sphereTwo} ${style.inner}`}></div>

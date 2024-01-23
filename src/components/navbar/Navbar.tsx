@@ -5,7 +5,7 @@ import styles from "./navbar.module.css";
 const Navbar: React.FC = () => {
   return (
     <div className={styles.navbar}>
-      <div className="logo">@WalickiDev</div>
+      <div className="logo font-normal">@WalickiDev</div>
       <div>
         <Links />
       </div>
