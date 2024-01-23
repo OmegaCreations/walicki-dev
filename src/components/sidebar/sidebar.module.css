@@ -1,0 +1,26 @@
+.sideBar {
+  width: 45px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 75px;
+  top: 40%;
+  gap: 50px;
+}
+
+.sideBar svg {
+  font-size: 2em;
+  transition: 0.2s;
+  color: var(--link);
+}
+
+.sideBar:hover svg {
+  opacity: 0.2;
+}
+
+.sideBar svg:hover {
+  opacity: 1 !important;
+  color: var(--subtext);
+  cursor: pointer;
+}

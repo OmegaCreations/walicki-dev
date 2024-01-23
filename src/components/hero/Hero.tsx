@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
         <h1 className="text-[3em] font-black tracking-widest">
           Maksymilian Walicki
         </h1>
-        <h2 className="text-lg font-normal">
+        <h2 className="text-lg font-normal pt-6">
           Your international <span className="subText">Web Developer</span>
         </h2>
       </div>
