@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
     <div className="flex flex-col items-center gap-16">
       <div className="text-center">
         <h1 className="text-[3em] font-black tracking-widest">
-          Maksymilian Walicki
+          Walicki Development
         </h1>
         <h2 className="text-lg font-normal pt-6">
           Your international <span className="subText">Web Developer</span>

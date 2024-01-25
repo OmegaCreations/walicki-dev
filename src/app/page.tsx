@@ -1,5 +1,6 @@
 "use client";
 import Hero from "@/components/hero/Hero";
+import Sidebar from "@/components/sidebar/Sidebar";
 import { useEffect, useState } from "react";
 
 const Home = () => {
@@ -49,6 +50,7 @@ const Home = () => {
 
   return (
     <main className="container w-full h-auto">
+      <Sidebar />
       <Hero />
     </main>
   );

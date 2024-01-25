@@ -6,10 +6,11 @@
   --bg: #f8f7f2;
   --text: #2d2926;
   --link: #888789;
+  --link-dark: #505457;
   --subtext: #3423a6;
 
-  /* Hero section */
-  --SIDE: 480px;
+  /* Hero section sphere size*/
+  --SIDE: 40vh;
 }
 
 @media (prefers-color-scheme: dark) {
