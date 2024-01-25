@@ -7,13 +7,13 @@ import { FaGithub } from "react-icons/fa";
 const Sidebar: React.FC = () => {
   return (
     <div className={style.sideBar}>
-      <a>
+      <a href="https://www.linkedin.com/in/maksymilian-walicki/">
         <FaLinkedin />
       </a>
       <a>
         <MdEmail />
       </a>
-      <a>
+      <a href="https://github.com/OmegaCreations">
         <FaGithub />
       </a>
     </div>

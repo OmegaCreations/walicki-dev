@@ -1,8 +1,12 @@
+.navBar {
+  margin-top: 2rem;
+}
+
 .cube {
   margin: 0 auto;
   left: 0;
   right: 0;
-  top: 50%;
+  top: 0;
   transform-style: preserve-3d;
   transform: rotateX(-1deg) rotateY(-1deg) rotateZ(-1deg);
   height: var(--SIDE);

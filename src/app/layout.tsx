@@ -5,7 +5,7 @@ import "./globals.css";
 // components
 import "@/components/navbar/Navbar";
 import Navbar from "@/components/navbar/Navbar";
-import Footer from "@/components/footer/Footer";
+import Transition from "./transition";
 
 // Font
 const inter = Poppins({
@@ -27,9 +27,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="container m-auto px-12 min-h-screen flex flex-col justify-between">
+        <div className="container m-auto px-12 min-h-screen flex flex-col">
           <Navbar />
-          {children}
+          <Transition>{children}</Transition>
         </div>
       </body>
     </html>

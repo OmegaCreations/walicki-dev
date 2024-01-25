@@ -1,0 +1,56 @@
+.contact h1::after {
+  content: "";
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  background-color: var(--bg);
+  height: 45%;
+  bottom: 0;
+  left: 0;
+}
+
+.contactBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 4em;
+  font-weight: 300;
+  font-style: normal;
+
+  cursor: pointer;
+  position: relative;
+
+  color: var(--text);
+}
+
+.contactBox svg {
+  font-size: 2rem;
+  font-weight: 300;
+
+  opacity: 1;
+  transition: 0.1s ease;
+}
+
+.contactBox::after {
+  content: "";
+  position: absolute;
+
+  bottom: 0;
+  left: 10px;
+  width: 0%;
+  height: 10%;
+  background-color: var(--subtext);
+
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  z-index: -1;
+}
+
+.contactBox:hover::after {
+  width: 350px;
+}
+
+.contactBox:hover svg {
+  opacity: 0;
+}
