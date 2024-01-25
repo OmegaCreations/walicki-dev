@@ -11,6 +11,10 @@
 
   /* Hero section sphere size*/
   --SIDE: 40vh;
+
+  /* Override react-toastify */
+  --toastify-color-dark: var(--text) !important;
+  --toastify-color-progress-dark: var(--bg) !important;
 }
 
 @media (prefers-color-scheme: dark) {

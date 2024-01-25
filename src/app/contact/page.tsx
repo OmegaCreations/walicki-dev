@@ -1,9 +1,39 @@
+"use client";
+
 import CircleBg from "@/components/circleBg/CircleBg";
 import style from "./contact.module.css";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaRegCopy } from "react-icons/fa";
+import { ToastContainer, toast } from "react-toastify";
 
 // ContactPage
 const ContactPage: React.FC = () => {
+  const getMail = async () => {
+    try {
+      await navigator.clipboard.writeText("maxwalicki@gmail.com").then(() => {
+        toast("Copied mail to clipboard!", {
+          position: "bottom-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: false,
+          theme: "dark",
+        });
+      });
+    } catch (err) {
+      toast("An error occured while copying", {
+        position: "bottom-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: false,
+        theme: "dark",
+      });
+    }
+  };
+
   return (
     <div
       className={` ${style.contact} flex flex-col justify-center gap-6 mt-8 overflow-hidden`}
@@ -19,8 +49,8 @@ const ContactPage: React.FC = () => {
         >
           LinkedIn <FaExternalLinkAlt />
         </a>
-        <a className={style.contactBox}>
-          Mail <FaExternalLinkAlt />
+        <a onClick={getMail} className={style.contactBox}>
+          Mail <FaRegCopy />
         </a>
         <a
           href="https://github.com/OmegaCreations"
@@ -30,6 +60,7 @@ const ContactPage: React.FC = () => {
         </a>
       </div>
       <CircleBg />
+      <ToastContainer />
     </div>
   );
 };
