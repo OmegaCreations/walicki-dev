@@ -8,11 +8,11 @@ const AboutPage: React.FC = () => {
         <h1>Maksymilian Walicki</h1>
         <h2>Your Fullstack Web Developer</h2>
         <span>
-          Since beginning my journey as a freelance designer 12 years ago, I've
-          done remote work for agencies, consulted for startups, and
+          Since beginning my journey as a freelance designer 12 years ago,
+          I&apos;ve done remote work for agencies, consulted for startups, and
           collaborated with talented people to create digital products for both
-          business and consumer use. I'm quietly confident, naturally curious,
-          and perpetually working on improving my chops.
+          business and consumer use. I&apos;m quietly confident, naturally
+          curious, and perpetually working on improving my chops.
         </span>
       </div>
 
