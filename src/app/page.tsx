@@ -52,6 +52,8 @@ const Home = () => {
     <main className="container w-full h-auto">
       <Sidebar />
       <Hero />
+
+      {/* TODO: Add - Button "Start here ->" and text "If you're looking for..." */}
     </main>
   );
 };
