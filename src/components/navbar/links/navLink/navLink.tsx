@@ -4,7 +4,7 @@ import styles from "./navLink.module.css";
 import { usePathname } from "next/navigation";
 
 // NavLink
-const NavLink: React.FC = ({ item }: any) => {
+const NavLink = ({ item }: { item: { title: string; path: string } }) => {
   const pathName = usePathname();
 
   return (
