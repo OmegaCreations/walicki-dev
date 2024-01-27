@@ -10,7 +10,7 @@
   --subtext: #3423a6;
 
   /* Hero section sphere size*/
-  --SIDE: 40vh;
+  --SIDE: 35vh;
 
   /* Override react-toastify */
   --toastify-color-dark: var(--text) !important;
