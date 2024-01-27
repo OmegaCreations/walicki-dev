@@ -3,7 +3,9 @@ import style from "./hero.module.css";
 // Hero
 const Hero: React.FC = () => {
   return (
-    <div className={`${style.navBar} flex flex-col justify-center gap-16`}>
+    <div
+      className={`${style.navBar} flex flex-col justify-center gap-16 overflow-hidden`}
+    >
       <div className="text-center">
         <h1 className="text-[2.5em] sm:text-[3em] font-black tracking-widest">
           Walicki Development
