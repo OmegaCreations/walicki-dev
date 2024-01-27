@@ -19,9 +19,9 @@ const Project = ({
       <span>{data.title}</span>
       <p>{data.description}</p>
       <div className={style.projectLinks}>
-        <a href={data.github} target="_blank" rel="noopener noreferrer">
+        <div>
           <FaGithub />
-        </a>
+        </div>
       </div>
     </a>
   );

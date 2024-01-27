@@ -78,3 +78,16 @@
   flex-direction: column;
   gap: 24px;
 }
+
+/* Projects hover */
+.projects:hover a {
+  opacity: 0.4;
+}
+
+.projects a {
+  transition: 0.3 ease;
+}
+
+.projects a:hover {
+  opacity: 1 !important;
+}
