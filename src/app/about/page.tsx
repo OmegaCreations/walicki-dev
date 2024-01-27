@@ -10,7 +10,7 @@ const AboutPage: React.FC = () => {
     {
       title: "Jake",
       description:
-        "Fullstack application featuring full user authentication with spring security and custom MongoDB cluster. Whole project showcases full data flow and connections. React Web App feauturing custom snake colors, and Java desktop game - both connected to Spring Boot backend server.",
+        "Fullstack application featuring full user authentication with spring security and custom MongoDB cluster. Whole project showcases full data flow and connections. React Web App featuring custom snake colors, and Java desktop game - both connected to Spring Boot backend server.",
       github: "https://github.com/OmegaCreations/FrontendJake",
       url: "",
     },
@@ -31,7 +31,7 @@ const AboutPage: React.FC = () => {
     {
       title: "SSPvEth",
       description:
-        "Streaming provider for ethernet data transmission sent by Raspberry Pico. Build with Node.js and Express.js.",
+        "Streaming provider for ethernet data transmission sent by Raspberry Pico. Built with Node.js and Express.js.",
       github:
         "https://github.com/OmegaCreations/StreamingService-for-Ethernet-Data",
       url: "",
