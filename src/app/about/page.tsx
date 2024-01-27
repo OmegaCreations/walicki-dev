@@ -56,7 +56,7 @@ const AboutPage: React.FC = () => {
   return (
     <div className={`container ${style.aboutBox}`}>
       <div className={style.aboutHeader}>
-        <h1>Maksymilian Walicki</h1>
+        <h1 className="text-[2em] sm:text-[3em]">Maksymilian Walicki</h1>
         <h2>Your Fullstack Web Developer</h2>
         <span>
           Hi, My name is Maksymilian. I am an <b>ICT Technitian</b> currently

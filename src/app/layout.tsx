@@ -16,7 +16,8 @@ const inter = Poppins({
 // TODO: later add title and description
 export const metadata: Metadata = {
   title: "WalickiDev",
-  description: "Maksymilian Walicki portfolio website",
+  description: "Maksymilian Walicki is a fullstack web developer",
+  viewport: "width=device-width, initial-scale=1.0",
 };
 
 export default function RootLayout({
