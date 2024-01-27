@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "WalickiDev",
   description: "Maksymilian Walicki is a fullstack web developer",
   viewport: "width=device-width, initial-scale=1.0",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
