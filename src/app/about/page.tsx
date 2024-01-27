@@ -49,7 +49,7 @@ const AboutPage: React.FC = () => {
       title: "Frontend Developer Apprentice",
       date: "Quantoo, Cracow",
       description:
-        "Developing landing pages in CSS and Sass. Using knowledge of JavaScript and JQuery to create templates in Wordpress and PHP.",
+        "Developed landing pages in CSS and Sass. Used knowledge of JavaScript and JQuery to create templates in Wordpress and PHP.",
     },
   ];
 
