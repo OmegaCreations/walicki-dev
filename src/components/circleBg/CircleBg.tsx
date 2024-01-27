@@ -2,7 +2,7 @@ import style from "./circlebg.module.css";
 // CircleBg
 const CircleBg: React.FC = () => {
   return (
-    <div className={style.circleBox}>
+    <div className={`hidden md:block ${style.circleBox}`}>
       <div className={style.circleBg}></div>
     </div>
   );
