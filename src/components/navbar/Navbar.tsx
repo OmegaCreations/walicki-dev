@@ -4,8 +4,10 @@ import styles from "./navbar.module.css";
 // Navbar
 const Navbar: React.FC = () => {
   return (
-    <div className={styles.navbar}>
-      <div className="logo font-normal">@WalickiDev</div>
+    <div
+      className={`flex-col gap-4 justify-center sm:justify-between sm:flex-row ${styles.navbar}`}
+    >
+      <div className="font-normal">@WalickiDev</div>
       <div>
         <Links />
       </div>
