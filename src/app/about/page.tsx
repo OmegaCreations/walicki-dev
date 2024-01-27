@@ -59,7 +59,7 @@ const AboutPage: React.FC = () => {
         <h1 className="text-[2em] sm:text-[3em]">Maksymilian Walicki</h1>
         <h2>Your Fullstack Web Developer</h2>
         <span>
-          Hi, My name is Maksymilian. I am an <b>ICT Technitian</b> currently
+          Hi, My name is Maksymilian. I am an <b>ICT Technician</b> currently
           pursuing degree in <b>Applied Computer Science at AGH in Cracow</b>. I
           love working with complex problems and creating web applications. I am
           currently working on E-commerce management system.
