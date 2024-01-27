@@ -1,0 +1,72 @@
+.projectBox {
+  max-width: 600px;
+  gap: 24px;
+  padding: 15px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+
+  border: 2px solid var(--text);
+
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.projectBox span {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.projectBox p {
+  color: var(--text);
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-size: medium;
+}
+
+.projectBox a {
+  color: var(--text);
+}
+
+.projectLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Hover animation project */
+.projectBox::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  content: "";
+  background: var(--text);
+  transition: transform 0.5s;
+
+  right: auto;
+  bottom: auto;
+  width: 200%;
+  height: 100%;
+  transform-origin: right top;
+  transform: skewX(-30deg) scale(0, 1);
+}
+
+.projectBox:hover {
+  cursor: pointer;
+}
+
+.projectBox:hover a,
+.projectBox:hover span,
+.projectBox:hover p {
+  color: var(--bg);
+}
+
+.projectBox:hover::before {
+  transform-origin: left top;
+  transform: skewX(-30deg) scale(1, 1);
+}

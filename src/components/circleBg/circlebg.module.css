@@ -10,8 +10,8 @@
 .circleBg {
   width: 70vh;
   height: 70vh;
-  position: absolute;
-  top: 5vh;
+  position: fixed;
+  bottom: -15vh;
   right: -15vw;
 
   border: 7px dashed var(--text);

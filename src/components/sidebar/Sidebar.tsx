@@ -34,7 +34,7 @@ const Sidebar: React.FC = () => {
   };
 
   return (
-    <div className={style.sideBar}>
+    <div className={`bg-pink hidden sm:flex ${style.sideBar}`}>
       <a href="https://www.linkedin.com/in/maksymilian-walicki/">
         <FaLinkedin />
       </a>

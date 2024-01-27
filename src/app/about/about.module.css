@@ -29,3 +29,52 @@
   letter-spacing: 1px;
   line-height: 24px;
 }
+
+/* Stack */
+.stack {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 1.5em;
+  color: var(--subtext);
+
+  gap: 24px;
+}
+
+.stack img {
+  width: 45px;
+}
+
+.imgBox {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 24px;
+
+  max-width: 600px;
+}
+
+.imgBox:hover img {
+  transition: 0.2s ease;
+  opacity: 0.2;
+}
+
+.imgBox img:hover {
+  opacity: 1 !important;
+}
+
+/* Projects */
+.projects {
+  font-size: 1.5em;
+  color: var(--subtext);
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.projects div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
