@@ -41,7 +41,7 @@ const AboutPage: React.FC = () => {
   const jobs = [
     {
       title: "ICT Technitian Apprentice",
-      date: "Salamanca, Span",
+      date: "Salamanca, Spain",
       description:
         "Developed and secured local network inside of local school with a team.",
     },
