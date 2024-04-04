@@ -133,12 +133,6 @@ const AboutPage: React.FC = () => {
                 height="40"
               />
               <Image
-                src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Backend/express-original-wordmark.svg"
-                alt="Express"
-                width="40"
-                height="40"
-              />
-              <Image
                 src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Database/mongodb-original-wordmark.svg"
                 alt="Mongodb"
                 width="40"
