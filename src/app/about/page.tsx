@@ -62,7 +62,7 @@ const AboutPage: React.FC = () => {
           Hi, My name is Maksymilian. I am an <b>ICT Technician</b> currently
           pursuing degree in <b>Applied Computer Science at AGH in Cracow</b>. I
           love working with complex problems and creating web applications. I am
-          currently working on E-commerce management system.
+          currently working on C++ client-server networking application featuring token based authentication and advanced C++ concepts.
         </span>
       </div>
 
