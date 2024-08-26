@@ -8,13 +8,6 @@ import Experience from "./experience/Experience";
 const AboutPage: React.FC = () => {
   const projects = [
     {
-      title: "Airplane Captive Portal with Bandwidth Limiting",
-      description:
-        "Project implements technology seen while flying on airplanes. It allows internet connection based on chosen bundle with different bandwidth and prices for a specific period of time.",
-      github: "https://github.com/OmegaCreations/Airplane-CaptivePortal-BandwidthLimiting",
-      url: "",
-    },
-    {
       title: "C++ Chat App",
       description:
         "Chat application made in C++ featuring multithreaded Server-Client chat rooms with Winsock2 library. User interface made with WxWidgets.",
