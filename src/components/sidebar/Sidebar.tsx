@@ -35,13 +35,18 @@ const Sidebar: React.FC = () => {
 
   return (
     <div className={`hidden sm:flex ${style.sideBar}`}>
-      <a href="https://www.linkedin.com/in/maksymilian-walicki/">
+      <a 
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://www.linkedin.com/in/maksymilian-walicki/">
         <FaLinkedin />
       </a>
       <a onClick={getMail}>
         <MdEmail />
       </a>
-      <a href="https://github.com/OmegaCreations">
+      <a target="_blank"
+         rel="noopener noreferrer" 
+         href="https://github.com/OmegaCreations">
         <FaGithub />
       </a>
       <ToastContainer />

@@ -45,6 +45,8 @@ const ContactPage: React.FC = () => {
       <div className="container flex flex-col gap-6">
         <a
           href="https://www.linkedin.com/in/maksymilian-walicki/"
+          target="_blank"
+          rel="noopener noreferrer"
           className={`text-[2em] sm:text-[4em] ${style.contactBox}`}
         >
           LinkedIn <FaExternalLinkAlt />
@@ -56,6 +58,8 @@ const ContactPage: React.FC = () => {
           Mail <FaRegCopy />
         </a>
         <a
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://github.com/OmegaCreations"
           className={`text-[2em] sm:text-[4em] ${style.contactBox}`}
         >

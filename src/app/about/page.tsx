@@ -8,6 +8,20 @@ import Experience from "./experience/Experience";
 const AboutPage: React.FC = () => {
   const projects = [
     {
+      title: "Airplane Captive Portal with Bandwidth Limiting",
+      description:
+        "Project implements technology seen while flying on airplanes. It allows internet connection based on chosen bundle with different bandwidth and prices for a specific period of time.",
+      github: "https://github.com/OmegaCreations/Airplane-CaptivePortal-BandwidthLimiting",
+      url: "",
+    },
+    {
+      title: "C++ Chat App",
+      description:
+        "Chat application made in C++ featuring multithreaded Server-Client chat rooms with Winsock2 library. User interface made with WxWidgets.",
+      github: "https://github.com/OmegaCreations/CppNetworking",
+      url: "",
+    },
+    {
       title: "Jake",
       description:
         "Fullstack application featuring full user authentication with spring security and custom MongoDB cluster. Whole project showcases full data flow and connections. React Web App featuring custom snake colors, and Java desktop game - both connected to Spring Boot backend server.",
@@ -31,7 +45,7 @@ const AboutPage: React.FC = () => {
     {
       title: "SSPvEth",
       description:
-        "Streaming provider for ethernet data transmission sent by Raspberry Pico. Built with Node.js and Express.js.",
+        "AI project featuring streaming provider for ethernet data transmission sent by Raspberry Pico filtering visual data with AI model. Built with Node.js, Express.js, Python and Tensorflow library. ",
       github:
         "https://github.com/OmegaCreations/StreamingService-for-Ethernet-Data",
       url: "",
@@ -60,9 +74,9 @@ const AboutPage: React.FC = () => {
         <h2>Your Fullstack Web Developer</h2>
         <span>
           Hi, My name is Maksymilian. I am an <b>ICT Technician</b> currently
-          pursuing degree in <b>Applied Computer Science at AGH in Cracow</b>. I
-          love working with complex problems and creating web applications. I am
-          currently working on C++ client-server networking application featuring token based authentication and advanced C++ concepts.
+          pursuing degree in <b>Applied Computer Science at AGH in Cracow, Poland</b>. I
+          love working with complex problems and creating web applications. <b>I am
+          currently working on a Gym RPG app.</b> It uses React.js, Chakra UI, Spring framework and PostgreSQL. Contact me if you are interested to see source code for hiring purposes.
         </span>
       </div>
 
@@ -75,12 +89,6 @@ const AboutPage: React.FC = () => {
               <Image
                 src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/react-original-wordmark.svg"
                 alt="React"
-                width="40"
-                height="40"
-              />
-              <Image
-                src="https://cdn.worldvectorlogo.com/logos/next-js.svg"
-                alt="Next"
                 width="40"
                 height="40"
               />
