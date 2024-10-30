@@ -67,9 +67,12 @@ const AboutPage: React.FC = () => {
         <h2>Your Fullstack Web Developer</h2>
         <span>
           Hi, My name is Maksymilian. I am an <b>ICT Technician</b> currently
-          pursuing degree in <b>Applied Computer Science at AGH in Cracow, Poland</b>. I
-          love working with complex problems and creating web applications. <b>I am
-          currently working on a Gym RPG app.</b> It uses React.js, Chakra UI, Spring framework and PostgreSQL. Contact me if you are interested to see source code for hiring purposes.
+          pursuing degree in{" "}
+          <b>Applied Computer Science at AGH in Cracow, Poland</b>. I love
+          working with complex problems and creating web applications.{" "}
+          <b>I am currently working on a Gym RPG app.</b> It uses React.js,
+          Chakra UI, Spring framework and PostgreSQL. Contact me if you are
+          interested to see source code for hiring purposes.
         </span>
       </div>
 
@@ -136,6 +139,12 @@ const AboutPage: React.FC = () => {
               <Image
                 src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Database/mongodb-original-wordmark.svg"
                 alt="Mongodb"
+                width="40"
+                height="40"
+              />
+              <Image
+                src="https://www.svgrepo.com/show/303251/mysql-logo.svg"
+                alt="MySQL"
                 width="40"
                 height="40"
               />
